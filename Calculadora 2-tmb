@@ -17,8 +17,6 @@ def calculadora(): #FUNÇÃO PARA ABRIR A SEGUNDA JANELA
 
         resultado["text"] = f"A taxa metabólica basal é : {form:.2f} Kcal/dia"
 
-
-    
     janela_calculadora = Toplevel(janela) #CRIA A JANELA SECUNDÁRIA
     janela_calculadora.title("Calculadora") #TITULO DA JANELA SECUNDÁRIA
     janela_calculadora.geometry("640x600") #TAMANHO DA JANELA SECUNDÁRIA
